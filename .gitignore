@@ -1,0 +1,49 @@
+# maven ignore
+target/
+test-output
+temp
+src/main/webapp/WEB_INF/classes
+src/main/webapp/WEB_INF/lib
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+classes/
+WEB-INF/lib/
+
+# tomcat
+catalina.home_IS_UNDEFINED
+.tomcatplugin
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+.factorypath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# spring ide
+.springBeans
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+*.java~
+*.properties~
+*.xml~
+
+# system ignore
+.DS_Store
+Thumbs.db
+.sass-cache/
+/bin/
+/target/
