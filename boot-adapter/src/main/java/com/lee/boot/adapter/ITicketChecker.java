@@ -6,5 +6,5 @@ package com.lee.boot.adapter;
  * Created by chris on 17-7-1.
  */
 public interface ITicketChecker {
-  public boolean checkTicket(String ticketNo, String idNo);
+  public String checkTicket(String ticketNo, String idNo);
 }

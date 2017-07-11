@@ -45,7 +45,7 @@ public class RestApi {
     }
 
     @RequestMapping(value = "/checkticket", method = RequestMethod.GET)
-    public boolean checkTicket(String idno, String ticket) {
+    public String checkTicket(String idno, String ticket) {
         return checker.checkTicket(ticket, idno);
     }
 }

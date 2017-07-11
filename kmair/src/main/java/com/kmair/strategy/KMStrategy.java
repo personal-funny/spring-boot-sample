@@ -15,9 +15,8 @@ public class KMStrategy implements ITicketChecker {
 
 
     @Override
-    public boolean checkTicket(String s, String s1) {
+    public String checkTicket(String s, String s1) {
         System.out.println("This is KMStrategy ...............");
-        testKMConfigure.testKM(s);
-        return false;
+        return testKMConfigure.testKM(s);
     }
 }

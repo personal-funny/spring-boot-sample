@@ -14,9 +14,8 @@ public class CAStrategy implements ITicketChecker {
     private TestCAConfigure testCAConfigure;
 
     @Override
-    public boolean checkTicket(String s, String s1) {
+    public String checkTicket(String s, String s1) {
         System.out.println("This is CAStrategy ...............");
-        testCAConfigure.testCA(s);
-        return false;
+        return testCAConfigure.testCA(s);
     }
 }

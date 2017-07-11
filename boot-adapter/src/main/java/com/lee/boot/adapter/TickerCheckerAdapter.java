@@ -10,7 +10,7 @@ import java.util.Map;
  */
 public class TickerCheckerAdapter {
 
-  public boolean checkTicket(String ticketNo, String idNo) {
+  public String checkTicket(String ticketNo, String idNo) {
     String header = ticketNo.substring(0, 3);
     ITicketChecker checker = checkerMap.get(header);
     return checker.checkTicket(ticketNo, idNo);
