@@ -15,7 +15,7 @@ import java.util.List;
 import com.lee.boot.adapter.TickerCheckerAdapter;
 
 @RestController
-public class RestApi extends CustomeExceptionHandler {
+public class RestApi {
 
     private final AirExceptionFactory exceptionFactory = AirExceptionFactory.getInstance();
 

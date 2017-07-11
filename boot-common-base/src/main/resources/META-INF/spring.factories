@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.lee.boot.common.converter.AppAutoConfiguration,\
+com.lee.boot.common.converter.GlobalExceptionAutoConfiguration

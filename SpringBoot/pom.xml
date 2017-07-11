@@ -6,7 +6,6 @@
     <groupId>com.lee.boot</groupId>
     <artifactId>SpringBoot</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.1</version>
     <name>SpringBoot</name>
 
 
@@ -54,12 +53,6 @@
             <artifactId>boot-common-base</artifactId>
             <version>${boot-common-base.version}</version>
         </dependency>
-
-        <!--<dependency>-->
-            <!--<groupId>com.easywit</groupId>-->
-            <!--<artifactId>common-web</artifactId>-->
-            <!--<version>${common-web.version}</version>-->
-        <!--</dependency>-->
 
         <dependency>
             <groupId>com.caair.strategy</groupId>
