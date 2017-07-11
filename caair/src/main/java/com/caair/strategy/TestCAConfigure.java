@@ -10,9 +10,15 @@ import org.springframework.stereotype.Component;
  */
 public class TestCAConfigure {
 
+    private String name;
+
     public String testCA(String str) {
         System.out.println("This is TestConfigure ++++++++++++++");
-        System.out.println("------------------ " + str + " ----------------------");
+        System.out.println("------------------ " + str + " " + name + " ----------------------");
         return null;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

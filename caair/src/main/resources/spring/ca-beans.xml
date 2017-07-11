@@ -10,13 +10,13 @@
         <property name="ignoreUnresolvablePlaceholders" value="true"/>
         <property name="locations">
             <list>
-                <value>classpath:spring/placeholder/test.properties</value>
+                <value>classpath:spring/placeholder/ca-test.properties</value>
             </list>
         </property>
     </bean>
 
-    <bean id="testKMConfigure" class="com.kmair.strategy.TestKMConfigure">
-        <property name="name" value="${test.user.name}"/>
+    <bean id="testCAConfigure" class="com.caair.strategy.TestCAConfigure">
+        <property name="name" value="${ca.user.name}"/>
     </bean>
 
 </beans>

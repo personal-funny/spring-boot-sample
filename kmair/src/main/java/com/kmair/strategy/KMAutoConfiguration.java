@@ -1,19 +1,16 @@
 package com.kmair.strategy;
 
-import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
+import com.lee.boot.adapter.TickerCheckerAdapter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
-
-import com.lee.boot.adapter.TickerCheckerAdapter;
 
 /**
  * @author lx48475
  * @version $Id: KMAutoConfiguration.java, v 0.1 2017年07月03 08:54 lx48475 Exp $
  */
 @Configuration
-@ConditionalOnWebApplication
-@ImportResource({"classpath:spring/beans.xml"})
+@ImportResource({"classpath:spring/km-beans.xml"})
 public class KMAutoConfiguration {
 
 //    @Autowired

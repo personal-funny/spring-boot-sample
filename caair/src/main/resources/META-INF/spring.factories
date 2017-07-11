@@ -1,3 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.caair.strategy.CAAutoConfiguration,\
-com.caair.strategy.TestCAConfigure
+com.caair.strategy.CAAutoConfiguration
